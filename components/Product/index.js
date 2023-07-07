@@ -40,7 +40,7 @@ export default function Product() {
     if (response.ok) {
     router.push("/");
     }
-  }
+  } 
 
 
   if (isLoading) {
