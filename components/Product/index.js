@@ -66,7 +66,7 @@ export default function Product() {
         </button>
         </div>
         {isEditMode && (
-        <ProductForm onSubmit={handleEditProduct} value={data.product} isEditMode={true} />
+        <ProductForm onSubmit={handleEditProduct} value={data} isEditMode={true} />
       )}
       <h2>{data.name}</h2>
       <p>Description: {data.description}</p>
